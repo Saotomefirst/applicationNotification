@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "859545786412",
+    "project_id": "notificationapp-a458f",
+    "storage_bucket": "notificationapp-a458f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859545786412:android:20391452a41d23e1d7d989",
+        "android_client_info": {
+          "package_name": "com.saotome.applicationnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859545786412-ps8tt4dq4upvailnt9qei17k3ua8gac9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD49tReWbJUI70OPYQSTJY9omi2DupBDzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859545786412-ps8tt4dq4upvailnt9qei17k3ua8gac9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

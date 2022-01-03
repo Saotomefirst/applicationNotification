@@ -2,7 +2,9 @@ package com.saotome.applicationnotification
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
+import com.google.firebase.iid.FirebaseInstanceId
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,5 +19,7 @@ class MainActivity : AppCompatActivity() {
         enviarNotificacaoBotao.setOnClickListener {
             this.showNotification("1234", "Bootcamp Android", "Kotlin Android Curso")
         }
+
+        Log.i("**NovoToken", FirebaseInstanceId.getInstance().token.toString())
     }
 }
